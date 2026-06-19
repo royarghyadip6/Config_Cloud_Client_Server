@@ -1,0 +1,5 @@
+build:
+  id: ${ID}
+  owner: ${OWNER}
+  name: ${NAME}
+  version: ${VERSION}

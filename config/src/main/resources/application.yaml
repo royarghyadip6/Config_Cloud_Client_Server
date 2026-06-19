@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config
+  config:
+    import: "optional:configserver:http://localhost:8085"
+  profiles:
+    active: dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+#build:
+#  id: ${ID:-unknown}
+#  owner: ${OWNER:-unknown}
+#  name: ${NAME:-unknown}
+#  version: ${VERSION:-unknown}
